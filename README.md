@@ -527,6 +527,6 @@ plt.tight_layout()
 
 Great job! Being able to effectively create subplots with matplotlib is a solid data visualization skill to have--and using `enumerate()` makes our code that much simpler!
 
-# Summary
+## Summary
 
 In this lab, we learned how to create advanced subplots using `enumerate()` on grouped DataFrames!
