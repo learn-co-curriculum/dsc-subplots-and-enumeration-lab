@@ -143,7 +143,7 @@ odds
 
 Great! There are plenty of situations where `enumerate()` comes in very handy. By allowing us to get the index and the value at the same time, it makes it simple to do something to something with one based on the value of the other. This is a natural requirement of subplots.
 
-## Enumerating With Subplots
+## Enumerating with Subplots
 
 To end this lab, we'll see how we can use `enumerate` to easily subplot this entire dataframe by country--all 263 of them!
 
