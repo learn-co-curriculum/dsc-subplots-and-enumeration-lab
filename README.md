@@ -36,7 +36,7 @@ df = None
 
 ```
 
-Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'country_name'` column to get a feel for how many years there are per country. 
+Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'Country Name'` column to get a feel for how many years there are per country. 
 
 Do this now in the cell below. 
 
@@ -114,7 +114,7 @@ for index, value in enumerate(sample_list):
     print("Index: {}      Value: {}".format(index, value))    
 ```
 
-The `enumerate` keyword is extremely helpful anytime we're iterating over and object and want to reference the index of the current iteration. Let's try an example.
+The `enumerate` keywor is extremely helpful anytime we need to do something that needs the index of the item we're looping through. Let's try an example.
 
 In the cell below: 
 * `enumerate()` through `sample_list_2` in the cell below
@@ -141,7 +141,7 @@ odds
 #  'item at Index 9']
 ```
 
-Great! There are plenty of situations where `enumerate()` comes in very handy. One example is when generating subplots.
+Great! There are plenty of situations where `enumerate()` comes in very handy. By allowing us to get the index and the value at the same time, it makes it simple to do something to something with one based on the value of the other. This is a natural requirement of subplots.
 
 ## Enumerating with Subplots
 
