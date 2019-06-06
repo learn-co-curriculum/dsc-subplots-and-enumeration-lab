@@ -112,7 +112,7 @@ df.head()
 
 
 
-Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'country_name'` column to get a feel for how many years there are per country. 
+Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'Country Name'` column to get a feel for how many years there are per country. 
 
 Do this now in the cell below. 
 
