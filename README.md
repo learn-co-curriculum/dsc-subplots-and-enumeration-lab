@@ -23,6 +23,11 @@ In the cell below:
 * Import the `pyplot` module from `matplotlib` and set the standard alias of `plt`
 * Set matplotlib visualizations to appear inline with the command `%matplotlib inline`
 
+
+```python
+
+```
+
 Now, let's import the dataset. 
 
 In the cell below:
@@ -39,6 +44,11 @@ df = None
 Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'Country Name'` column to get a feel for how many years there are per country. 
 
 Do this now in the cell below. 
+
+
+```python
+
+```
 
 ## Groupings and Subplots
 
@@ -95,6 +105,11 @@ In the cell below:
 * Call `plt.figure()` and use the `figsize` parameter to set the size of the total subplot to 20 inches wide by 10 inches tall. Remember to pass these values in as a tuple, with width first and height second. 
 * Copy the visualization code from the cell above into the cell below. 
 * After setting the title for the Canada plot, add the line `plt.subplots_adjust()` and pass in the parameter `wspace=0.4`.
+
+
+```python
+
+```
 
 Much better!
 
