@@ -26,13 +26,8 @@ In the cell below:
 
 ```python
 # Import pandas
-
-
 # Import matplotlib
-
-
 # Make sure matplotlib plots appear inline
-
 ```
 
 Now, let's import the dataset. 
@@ -48,7 +43,6 @@ In the cell below:
 df = None
 
 # Print the first five rows 
-
 ```
 
 Our columns look fairly standard. Let's take a look at the `value_counts()` of the `'Country Name'` column to get a feel for how many years there are per country. 
@@ -58,7 +52,6 @@ Do this now in the cell below.
 
 ```python
 # Look at the value_counts() of the 'Country Name' column 
-
 ```
 
 ## Groupings and Subplots
@@ -81,8 +74,7 @@ usa = None
 # Slice all the rows for Canada
 canada = None
 
-# Inspect the head of usa and canada
-
+# Inspect the head of USA and Canada
 ```
 
 Now that our data is ready, lets go ahead and create a basic subplot. For our first batch of subplots, we'll use the quick way by making use of `plt.subplot()` and passing in the number of rows, number of columns, and the number of the subplots that we want to create. Then, we'll create our plot by passing in the corresponding data. 
@@ -101,16 +93,11 @@ Do this now in the cell below.
 
 
 ```python
-# Subplot for usa
+# Subplot for USA
 ax1 = None
 
-
-
-# Subplot for canada
+# Subplot for Canada
 ax2 = None
-
-
-
 ```
 
 Our plots look pretty good, but they're a bit squished together, and the plots themselves are much too small, which squishes the axis values.  Both of these problems have an easy fix. We'll begin by using `plt.figure()` and passing in a larger `figsize` of `(20, 10)` to tell matplotlib we want the full subplot to be 20 inches by 10.  
@@ -126,8 +113,6 @@ In the cell below:
 
 ```python
 # Create figure
-
-
 ```
 
 Much better!
