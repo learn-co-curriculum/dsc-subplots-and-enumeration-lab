@@ -9,9 +9,8 @@ In this lab, we'll get some practice creating **_subplots_** and explore how we 
 
 You will be able to:
 
-* Use Python's `enumerate` keyword for lists where we also access the index 
-* Create basic subplots with `matplotlib`  
-* Use `enumerate` to write effective, Pythonic code when creating subplots 
+* Create subplots using a Matplotlib figure
+* Use the enumerate function in a for loop to track the index while iterating over a collection
 
 ## Getting Started
 
